@@ -73,56 +73,33 @@
 				</div>
 			</div>
 		  </div>
-<div class="row">
-					 <center>
-						<h2>Hackerii cu pălărie neagra</h2>
- 
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="icon black_hat glyphicon glyphicon-remove"></i>
-							<div class="feature-content">
-								<h4>răufăcătorii care după 
-ce depistează breşele de securitate le folosesc pentru a le exploata cu
- rea voinţă de cele mai multe ori în scopuri financiare</h4>
-							</div>
-						</div>
-					</div>
- 
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="icon black_hat glyphicon glyphicon-remove"></i>
-							<div class="feature-content">
-								<h4>hackerul ilegal care încalcă securitatea calculatoarelor, rețelelor</h4>
-							</div>
-						</div>
-					</div>
- 
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="icon black_hat glyphicon glyphicon-remove"></i>
-							<div class="feature-content">
-								<h4>sunt specializati în testarea penetrării și în alte metodologii
-								de testare prin mijloace ilegale pentru profitul personal</h4>
-							</div>
-						</div>
-					</div>
- 
-			</center>
 
-				
-				<hr/>
-				<div class="col-md-6">
-						<h3></h3>
-						<p class="lead">Un hacker este un expert în informatică, care se ocupă cu studiul în profunzime al programelor informatice (sisteme de operare, aplicații), adesea folosind tehnici de inginerie inversă (demontare), cu scopul de a obține cunoștințe care nu sunt accesibile publicului larg. </p>
-					</div>
+<div class="container" style="padding-left:43px;">
+<h3 class="lead">
+Worm ("vierme") este un program capabil să se răspândească în mod autonom, fără a fi necesar să se ataşeze de alte programe din computer.
+</h3>
+<img src="poze/paranteza.png" style="width:95%;">
+<div class="centru"><ol class="impr lead">
+					<li><b>să preia controlul asupra browser-ului Web</b>
+					</li>
+					<li><b>să urmărească ce site-uri Web aţi vizitat</b> 				
+					</li>
+					<li><b>să incetineasca calculatorul</b> </li>
+					<li><b>să vă utilizeze computerul pentru a trimite spam </b></li>
+					</ol>
 
-					<div class="col-md-5 col-md-offset-1">
-						
-							<img width="420px" height="400px"
-src="poze/hacker-iconc.png">
-					</div>
-				
+</center>
+<div class="row"><div class="col-md-6">
 </div>
+<br>
+<div id="butoane" class="row">
 
-</body>
+					</div>
+						
+							
+
+				
+ </div>
+
+</div>
 </html>

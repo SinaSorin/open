@@ -42,6 +42,8 @@
 						<li><a class="link"  href="blackh.php">Hacker</a></li>
 						<li><a class="link"  href="malware.php">Malware</a></li>
 						<li><a class="link"  href="virus.php">Virus</a></li>
+						<li><a class="link"  href="worm.php">Worm</a></li>
+
 						<?php
 						if(!isset($_SESSION['u_id']))
 							echo '
@@ -85,7 +87,7 @@ Virusul informatic este, în general, un program care se instalează fără voia
 <img src="poze/clasificarec.png" style="height:50%;"></center>
 </div>
 <div class="col-md-6">
-<center><p class="lead">Dupa tipul componentei virusate</p>
+<center><p class="lead">Dupa modul in care contamineaza</p>
 <img src="poze/cls.png" style="height:50%;"></center>
 </div>
 </div>

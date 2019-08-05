@@ -10,14 +10,14 @@ function computerAttack() {
     var id = setInterval(frame, 1);
     var ajuns = 0;
   function frame() {
-    if (posc == 300) {
+    if (posc == 360) {
           {
               clearInterval(id);
               ajuns = 1;
               $( "#v" ).effect("shake", {times:5,distance:5}, 1000 );
               hp2.innerHTML = hp2.innerHTML - 1;
-              v2 = hp2.innerHTML;
-              virusCheckDeath(v2);
+              
+              
           }
 
     } else {
@@ -48,14 +48,12 @@ function virusAttack() {
     var id2 = setInterval(frame2, 1);
     var ajuns = 0;
   function frame2() {
-    if (posc == -300) {
+    if (posc == -360) {
           {
               clearInterval(id2);
               ajuns = 1;
               $( "#c" ).effect("shake", {times:5,distance:5}, 1000 );
               hp1.innerHTML = hp1.innerHTML - 1;
-              v1 = hp1.innerHTML;
-              computerCheckDeath(v1);
           }
 
     } else {
@@ -82,13 +80,14 @@ function virusAttack() {
 function computerDeath() {
     $( "#c" ).effect("shake", {times:20}, 1000 );
     setTimeout(function(){ comp.style.visibility="hidden";}, 1200);
-    
-   
+    document.getElementById("tot").innerHTML = "<div>Ai pierdut</div>";
     
 }
 function virusDeath() {
     $( "#v" ).effect("shake", {times:20}, 1000 );
     setTimeout(function(){ virus.style.visibility="hidden";}, 1200);
+	document.getElementById("tot").innerHTML = "<div>Ai castigat</div>";
+
 }
 function computerCheckDeath(v1) {
     if (v1 <= 0)

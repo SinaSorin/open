@@ -685,7 +685,7 @@ opacity: 1;}
 	
 }
 .bifat {
-	background-color:#FF6700;
+	background-color:#1abdf3;
     width: fit-content;
     display: inline;
     padding: 10px;
@@ -716,4 +716,41 @@ opacity: 1;}
 .normal {
 	font-family: 'Montserrat', sans-serif;
 }
+    .tot2 {
+        
+        display:flex;
+        padding: 10px;
+		margin-left:21%;
+    }
+    .poza {
+       width:30%;
+       position: relative;
+		left:0px;
+		top:0px;
+    } 
+    .p1 {
+        position: relative;
+    }
+    .p2 {
+        position: relative;
+    }
+    .spatiu1 {
+        width: 200px;
+
+    }
+    .spatiumare {
+        width: 410px;
+    }
+    .hp {
+        
+    }
+    .health {
+     display:flex;
+        padding: 10px; 
+        margin-left: 35%;
+    }
+.centru {
+	margin-left:30%;
 	
+	
+}
