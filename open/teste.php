@@ -114,7 +114,7 @@ input[type="text"] {
     <div class="health">
     <div id="hp1">5</div>
     <div class="spatiumare"></div>
-    <div id="hp2">1</div>
+    <div id="hp2">5</div>
    </div>
  <script src="js/fight.js"></script>
  <script src="js/joc.js"></script>

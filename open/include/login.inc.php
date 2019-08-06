@@ -12,11 +12,11 @@ if(isset($_POST['submit'])) {
 		header("Location: ../index.php?login=empty");  // ma asigur ca utilizatorul a completat ambele campuri 
 		exit();
 	}else {
-		$sql= "SELECT * FROM user WHERE user_uid='$uid'";
+		$sql= "SELECT * FROM admin WHERE user_uid='$uid'";
 		$result = mysqli_query($conn,$sql);
 		$resultCheck=mysqli_num_rows($result);								
 		if($resultCheck<1) { // verific daca acea persoana exista in baza de date  
-			header("Location: ../administrare.php?");
+			header("Location: ../index.php?");
 			exit();
 		} else {
 			while($row=mysqli_fetch_assoc($result))
