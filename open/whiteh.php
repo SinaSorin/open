@@ -41,19 +41,8 @@
 					<ul class="main-menu nav navbar-nav navbar-right">
 						<li><a class="link"  href="whiteh.php">Hacker</a></li>
 						<li><a class="link"  href="antivirus.php">Antivirus</a></li>
-
-						<?php
-						if(!isset($_SESSION['u_id']))
-							echo '
-						<li><a class="link" href="#" data-toggle="modal" data-target="#login-modal">Conectează-te</a></li>
-						<li><a class="link" href="#" data-toggle="modal" data-target="#register-modal">Înregistrează-te</a></li>';
-						else
-							echo '
-						<li><a class="link" href="cazuri.php">Cazuri</a></li>
-						<li><a class="link" href="include/logout.inc.php" id="logout">Deconectează-te</a></li>';
+						<li><a class="link"  href="quiz.php">Quiz</a></li>
 						
-						
-						?>
 						
 					</ul>
  
@@ -76,24 +65,7 @@
 		  
 	
 
-<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    	  <div class="modal-dialog">
-				<div class="registermodal-container">
-					<h1>Creează un cont</h1><br>
-				  <form action="include/signup.inc.php" method="POST">
-						<input type="text" name="first" autocomplete="off" placeholder="Nume"> 
-						<input type="text" name="last" autocomplete="off" placeholder="Prenume">
-						<input type="text" name="uid" autocomplete="off" placeholder="Nume de utilizator">
-						<input type="text" name="email" autocomplete="off" placeholder="Email">
-						<input type="password" name="pwd" placeholder="Parolă">
-						<input type="password" name="pwd2" placeholder="Confirmă parolă">
-						<input type="submit" name="submit" class="login loginmodal-submit" value="Înregistrare">
-				  </form>
-					
-				 
-				</div>
-			</div>
-		  </div>
+
 <div class="row">
 					 <center>
 						<h2>Hackerii cu pălărie albă</h2>

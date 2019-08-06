@@ -43,17 +43,8 @@
 						<li><a class="link"  href="malware.php">Malware</a></li>
 						<li><a class="link"  href="virus.php">Virus</a></li>
 						<li><a class="link"  href="worm.php">Worm</a></li>
-
-						<?php
-						if(!isset($_SESSION['u_id']))
-							echo '
-						<li><a class="link" href="#" data-toggle="modal" data-target="#login-modal">Conectează-te</a></li>';
-						else
-							echo '
-						<li><a class="link" href="include/logout.inc.php" id="logout">Deconectează-te</a></li>';
+<li><a class="link"  href="troian.php">Troian</a></li>
 						
-						
-						?>
 						
 					</ul>
  

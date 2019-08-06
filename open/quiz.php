@@ -56,19 +56,8 @@ include_once 'include/dbh.inc.php';
 					<ul class="main-menu nav navbar-nav navbar-right">
 						<li><a class="link"  href="whiteh.php">Hacker</a></li>
 						<li><a class="link"  href="antivirus.php">Antivirus</a></li>
-
-						<?php
-						if(!isset($_SESSION['u_id']))
-							echo '
-						<li><a class="link" href="#" data-toggle="modal" data-target="#login-modal">Conectează-te</a></li>
-						<li><a class="link" href="#" data-toggle="modal" data-target="#register-modal">Înregistrează-te</a></li>';
-						else
-							echo '
-						<li><a class="link" href="cazuri.php">Cazuri</a></li>
-						<li><a class="link" href="include/logout.inc.php" id="logout">Deconectează-te</a></li>';
+						<li><a class="link"  href="quiz.php">Quiz</a></li>
 						
-						
-						?>
 						
 					</ul>
  
