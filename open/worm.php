@@ -30,8 +30,8 @@
 
 				<div class="navbar-header">
 					<div class="navbar-brand">
-						<a class="logo" href="#">
-							<span class="debate" style="color:gray">Logo</span>
+						<a href="index.php">
+							<img src="poze/simi.png" class="logo">
 						</a>
 					</div>
 					<button class="navbar-toggle">
@@ -80,26 +80,14 @@ Worm ("vierme") este un program capabil să se răspândească în mod autonom, 
 </h3>
 <img src="poze/paranteza.png" style="width:95%;">
 <div class="centru"><ol class="impr lead">
-					<li><b>să preia controlul asupra browser-ului Web</b>
+					<li><b>se propaga intr-o retea si produce pagube pentru software si hardware</b>
 					</li>
-					<li><b>să urmărească ce site-uri Web aţi vizitat</b> 				
+					<li><b>sunt independenţi şi nu necesită un cod executabil pentru multiplicare.</b> 				
 					</li>
-					<li><b>să incetineasca calculatorul</b> </li>
-					<li><b>să vă utilizeze computerul pentru a trimite spam </b></li>
+					<li><b>Răspândirea de la un calculator la altul se face prin intermediul mediului de reţea</b> </li>
+					<li><b>consumă din lărgimea de bandă necesară transmiterii de date</b></li>
 					</ol>
 
-</center>
-<div class="row"><div class="col-md-6">
-</div>
-<br>
-<div id="butoane" class="row">
-
-					</div>
-						
-							
-
-				
- </div>
 
 </div>
 </html>

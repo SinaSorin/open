@@ -42,14 +42,13 @@
 						<li><a class="link"  href="whiteh.php">Hacker</a></li>
 						<li><a class="link"  href="antivirus.php">Antivirus</a></li>
 
+
 						<?php
 						if(!isset($_SESSION['u_id']))
 							echo '
-						<li><a class="link" href="#" data-toggle="modal" data-target="#login-modal">Conectează-te</a></li>
-						<li><a class="link" href="#" data-toggle="modal" data-target="#register-modal">Înregistrează-te</a></li>';
+						<li><a class="link" href="#" data-toggle="modal" data-target="#login-modal">Conectează-te</a></li>';
 						else
 							echo '
-						<li><a class="link" href="cazuri.php">Cazuri</a></li>
 						<li><a class="link" href="include/logout.inc.php" id="logout">Deconectează-te</a></li>';
 						
 						
@@ -73,77 +72,84 @@
 				</div>
 			</div>
 		  </div>
-		  
-	
 
-<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    	  <div class="modal-dialog">
-				<div class="registermodal-container">
-					<h1>Creează un cont</h1><br>
-				  <form action="include/signup.inc.php" method="POST">
-						<input type="text" name="first" autocomplete="off" placeholder="Nume"> 
-						<input type="text" name="last" autocomplete="off" placeholder="Prenume">
-						<input type="text" name="uid" autocomplete="off" placeholder="Nume de utilizator">
-						<input type="text" name="email" autocomplete="off" placeholder="Email">
-						<input type="password" name="pwd" placeholder="Parolă">
-						<input type="password" name="pwd2" placeholder="Confirmă parolă">
-						<input type="submit" name="submit" class="login loginmodal-submit" value="Înregistrare">
-				  </form>
-					
-				 
-				</div>
-			</div>
-		  </div>
-<div class="row">
-					 <center>
-						<h2>Hackerii cu pălărie albă</h2>
- 
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="icon white_hat glyphicon glyphicon-ok"></i>
-							<div class="feature-content">
-								<h4>caută posibilele căi
-          de atacuri cu scopul de a informa producătorii ca aceştia 
-  să poată lua măsurile necesare pentru remedierea problemelor semnalate.</h4>
-							</div>
-						</div>
-					</div>
- 
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="icon white_hat glyphicon glyphicon-ok"></i>
-							<div class="feature-content">
-								<h4>sunt considerati hackeri etici caci respectă legile si regulile</h4>
-							</div>
-						</div>
-					</div>
- 
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="icon white_hat glyphicon glyphicon-ok"></i>
-							<div class="feature-content">
-								<h4>sunt specializati în testarea penetrării și în alte metodologii
-								de testare care asigură securitatea sistemelor informatice ale unei organizați</h4>
-							</div>
-						</div>
-					</div>
- 
-			</center>
-
-				
-				<hr/>
-				<div class="col-md-6">
-						<h3></h3>
-						<p class="lead">Un hacker este un expert în informatică, care se ocupă cu studiul în profunzime al programelor informatice (sisteme de operare, aplicații), adesea folosind tehnici de inginerie inversă (demontare), cu scopul de a obține cunoștințe care nu sunt accesibile publicului larg. </p>
-					</div>
-
-					<div class="col-md-5 col-md-offset-1">
-						
-							<img width="420px" height="400px"
-src="poze/hacker-iconc.png">
-					</div>
-				
+<div class="container" style="padding-left:43px;">
+<h3 class="lead">
+Programele antivirus sunt create special pentru:
+</h3><div><ol class="impr lead">
+					<li><b>detectarea viruşilor prin verificarea conţinutului fişierelor şi semnalarea prezenţei semnăturii unui virus cunoscut sau a unor secvenţe suspecte în interiorul lor;</b>
+					</li>
+					<li><b>dezinfectarea sau ştergerea fişierelor infectate;</b> 				
+					</li>
+					<li><b>Răspândirea de la un calculator la altul se face prin intermediul mediului de reţea</b> </li>
+					</ol>
 </div>
+<div class="container">
+<div id="domenius-wrapper">
+					<div class="row">
+						<div class="col-md-4 col-sm-6 col-xs-6">
+							<div class="domeniu">
+								<a href="lectii.php?id=1" class="domeniu-img">
+									<img src="poze/bitdefender.png" alt="">
+									<i class="domeniu-link-icon glyphicon glyphicon-search"></i>
+								</a>
+								<a class="domeniu-title link" href="#"><center>Cultură</center></a>
+								
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-6">
+							<div class="domeniu">
+								<a href="lectii.php?id=2" class="domeniu-img">
+									<img src="./poze/avast.png" alt="">
+									<i class="domeniu-link-icon glyphicon glyphicon-search"></i>
+								</a>
+								<a class="domeniu-title link" href="#"><center>Educație</center></a>
+							</div>
+						</div>
 
-</body>
+						<div class="col-md-4 col-sm-6 col-xs-6">
+							<div class="domeniu">
+								<a href="lectii.php?id=3" class="domeniu-img">
+									<img src="./poze/avira.png" alt="">
+									<i class="domeniu-link-icon glyphicon glyphicon-search"></i>
+								</a>
+								<a class="domeniu-title link" href="#"><center>Mediu</center></a>
+							</div>
+						</div>
+						</div>
+						<div class="row">
+						<div class="col-md-3 col-sm-6 col-xs-6">
+							<div class="domeniu">
+								<a href="lectii.php?id=4" class="domeniu-img">
+									<img src="./poze/norton.png" alt="">
+									<i class="domeniu-link-icon glyphicon glyphicon-search"></i>
+								</a>
+								<a class="domeniu-title link" href="#"><center>Sport</center></a>
+
+							</div>
+						</div>
+					
+						<div class="col-md-4 col-sm-6 col-xs-6">
+							<div class="domeniu">
+								<a href="lectii.php?id=5" class="domeniu-img">
+									<img src="poze/mc.png" alt="">
+									<i class="domeniu-link-icon glyphicon glyphicon-search"></i>
+								</a>
+								<a class="domeniu-title link" href="#"><center>Sănătate</center></a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-6">
+							<div class="domeniu">
+								<a href="lectii.php?id=6" class="domeniu-img">
+									<img src="./poze/avg.png" alt="">
+									<i class="domeniu-link-icon glyphicon glyphicon-search"></i>
+								</a>
+								<a class="domeniu-title link" href="#"><center>Politică</center></a>
+							</div>
+						</div>
+						</div>
+
+				</div>
+
+				</div>
 </html>

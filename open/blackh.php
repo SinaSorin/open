@@ -30,8 +30,8 @@
 
 				<div class="navbar-header">
 					<div class="navbar-brand">
-						<a class="logo" href="#">
-							<span class="debate" style="color:gray">Logo</span>
+						<a href="index.php">
+							<img src="poze/simi.png" class="logo">
 						</a>
 					</div>
 					<button class="navbar-toggle">

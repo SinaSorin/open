@@ -40,8 +40,8 @@ input[type="text"] {
 
 				<div class="navbar-header">
 					<div class="navbar-brand">
-						<a class="logo" href="index.php">
-							<span class="debate" style="color:gray">logo</span>
+						<a href="index.php">
+							<img src="poze/simi.png" class="logo">
 						</a>
 					</div>
 					<button class="navbar-toggle">
