@@ -39,9 +39,11 @@
 					</button>
 				</div>
 					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a class="link"  href="whiteh.php">Hacker</a></li>
-						<li><a class="link"  href="antivirus.php">Antivirus</a></li>
-
+						<li><a class="link"  href="blackh.php">Hacker</a></li>
+						<li><a class="link"  href="malware.php">Malware</a></li>
+						<li><a class="link"  href="virus.php">Virus</a></li>
+						<li><a class="link"  href="worm.php">Worm</a></li>
+						<li><a class="link"  href="troian.php">Troian</a></li>
 
 						<?php
 						if(!isset($_SESSION['u_id']))
@@ -74,73 +76,28 @@
 		  </div>
 
 <div class="container" style="padding-left:43px;">
-<center><h2>Programele antivirus</h2></center>
 <h3 class="lead">
-Programele antivirus sunt create special pentru:
-</h3><div><ol class="impr lead">
-					<li><b>detectarea viruşilor prin verificarea conţinutului fişierelor şi semnalarea prezenţei semnăturii unui virus cunoscut sau a unor secvenţe suspecte în interiorul lor;</b>
-					</li>
-					<li><b>dezinfectarea sau ştergerea fişierelor infectate;</b> 				
-					</li>
-					<li><b>Răspândirea de la un calculator la altul se face prin intermediul mediului de reţea</b> </li>
-					</ol>
+
+<h2>TROIENII</h2>
+
+
+ 
+
+
+<div class="row">
+<div class="col-md-8 lead">Sunt programe ce au o utilitate declarată, dar care în secret execută activităţi dăunătoare. Un exemplu îl poate reprezenta un program de aflare a parolei. Acesta afişază binecunoscuta ferestră de logare cu numele utilizatorului. Utilizatorul introduce parola însă primeşte un mesaj de genul “Invalid password”. Parola este aflată şi se lansează adevărata secvenţă de logare. Utilizatorul nesuspectând nimic reintroduce parola şi se loghează pe sistem. Nu prezintă caracteristica de autoreplicare.
+<p class="lead">Un troian se prezintă ca un fişier inofensiv şi interesant, tentându-l astfel pe utilizator să îl descarce de pe Internet, după care, precum grecii înarmaţi din burta calului, iese la iveală pericolul: software-ul malefic poate şterge documente sau poate instala alte programe vătămătoare.</p>
 </div>
-<div class="container">
-<div id="domenius-wrapper">
-					<div class="row">
-						<div class="col-md-4 col-sm-6 col-xs-6">
-							<div class="domeniu">
-								<a class="domeniu-img">
-									<img src="poze/bitdefender.png" alt="">
-									
-								</a>								
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-6">
-							<div class="domeniu">
-								<a class="domeniu-img">
-									<img src="./poze/avast.png" alt="">
-									
-								</a></div>
-						</div>
+<div class="col-md-4">
+<img width="400px" src="poze/troian.png">
+</div>
+</div>
 
-						<div class="col-md-4 col-sm-6 col-xs-6">
-							<div class="domeniu">
-								<a class="domeniu-img">
-									<img src="./poze/avira.png" alt="">
-									
-								</a>
-							</div>
-						</div>
-						</div>
-						<div class="row">
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="domeniu">
-								<a class="domeniu-img">
-									<img src="./poze/norton.png" alt="">
-									
-								</a>
-							</div>
-						</div>
-					
-						<div class="col-md-4 col-sm-6 col-xs-6">
-							<div class="domeniu">
-								<a class="domeniu-img">
-									<img src="poze/mc.png" alt="">
-									
-								</a></div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-6">
-							<div class="domeniu">
-								<a class="domeniu-img">
-									<img src="./poze/avg.png" alt="">
-									
-								</a>
-							</div>
-						</div>
-						</div>
+ 
+				
+ </div>
 
-				</div>
-
-				</div>
+</div>
+<script type="text/javascript" src="js/functions.js"></script>
+</body>
 </html>

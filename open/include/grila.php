@@ -33,7 +33,7 @@ else
 				$result3=mysqli_query($conn,$sql3);
 			}
 		}
-		//header("Location: ../lectie.php?id=$id_lectie");
+		header("Location: ../administrare.php?");
 	}
  ?>
 

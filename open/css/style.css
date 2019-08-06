@@ -518,7 +518,7 @@ body {
 .cos {
 	float:right;
 	position:relative;
-	top:15px;
+	top:-40px;
 	font-size:18px;
 	margin-right:10px;
 	color:black;
@@ -540,21 +540,6 @@ body {
 .domeniu .domeniu-title {
     display: block;
     height: 42px;
-}
-.domeniu-img:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background-color: #FF6700;
-    opacity: 0;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-}
-.domeniu .domeniu-img:hover:after {
-    opacity: 0.7;
 }
 .domeniu .domeniu-img .domeniu-link-icon {
     position: absolute;
@@ -776,8 +761,8 @@ opacity: 1;}
 	width:fit-content;
 	font-size:44px;
 	position:absolute;
-	right:28%;
-	top:20%;
+	right:26%;
+	top:18%;
 	border-radius: 10px;
 	color:lightgreen;
 }
@@ -789,8 +774,8 @@ opacity: 1;}
 	color:black;
 	width:fit-content;
 	font-size:44px;
-	left:46%;
-	top:70%;
+	left:49%;
+	top:74%;
 	border-radius: 10px;
 }
 .pozab {
